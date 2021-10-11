@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C78A15F27145C1A001BE25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A15E27145C1A001BE25E /* AppDelegate.swift */; };
+		4C78A16127145C1A001BE25E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A16027145C1A001BE25E /* SceneDelegate.swift */; };
+		4C78A16327145C1A001BE25E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A16227145C1A001BE25E /* ViewController.swift */; };
+		4C78A16627145C1A001BE25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C78A16427145C1A001BE25E /* Main.storyboard */; };
+		4C78A16827145C1D001BE25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C78A16727145C1D001BE25E /* Assets.xcassets */; };
+		4C78A16B27145C1D001BE25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C78A16927145C1D001BE25E /* LaunchScreen.storyboard */; };
+		4C78A17627145C1E001BE25E /* catchPikachuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A17527145C1E001BE25E /* catchPikachuAppTests.swift */; };
+		4C78A18027145C1E001BE25E /* catchPikachuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A17F27145C1E001BE25E /* catchPikachuAppUITests.swift */; };
+		4C78A18227145C1E001BE25E /* catchPikachuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78A18127145C1E001BE25E /* catchPikachuAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C78A17227145C1E001BE25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C78A15327145C1A001BE25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C78A15A27145C1A001BE25E;
+			remoteInfo = catchPikachuApp;
+		};
+		4C78A17C27145C1E001BE25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C78A15327145C1A001BE25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C78A15A27145C1A001BE25E;
+			remoteInfo = catchPikachuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C78A15B27145C1A001BE25E /* catchPikachuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchPikachuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C78A15E27145C1A001BE25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C78A16027145C1A001BE25E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C78A16227145C1A001BE25E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C78A16527145C1A001BE25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C78A16727145C1D001BE25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C78A16A27145C1D001BE25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C78A16C27145C1D001BE25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C78A17127145C1E001BE25E /* catchPikachuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catchPikachuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C78A17527145C1E001BE25E /* catchPikachuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catchPikachuAppTests.swift; sourceTree = "<group>"; };
+		4C78A17B27145C1E001BE25E /* catchPikachuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catchPikachuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C78A17F27145C1E001BE25E /* catchPikachuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catchPikachuAppUITests.swift; sourceTree = "<group>"; };
+		4C78A18127145C1E001BE25E /* catchPikachuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catchPikachuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C78A15827145C1A001BE25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78A16E27145C1E001BE25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78A17827145C1E001BE25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C78A15227145C1A001BE25E = {
+			isa = PBXGroup;
+			children = (
+				4C78A15D27145C1A001BE25E /* catchPikachuApp */,
+				4C78A17427145C1E001BE25E /* catchPikachuAppTests */,
+				4C78A17E27145C1E001BE25E /* catchPikachuAppUITests */,
+				4C78A15C27145C1A001BE25E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C78A15C27145C1A001BE25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C78A15B27145C1A001BE25E /* catchPikachuApp.app */,
+				4C78A17127145C1E001BE25E /* catchPikachuAppTests.xctest */,
+				4C78A17B27145C1E001BE25E /* catchPikachuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C78A15D27145C1A001BE25E /* catchPikachuApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C78A15E27145C1A001BE25E /* AppDelegate.swift */,
+				4C78A16027145C1A001BE25E /* SceneDelegate.swift */,
+				4C78A16227145C1A001BE25E /* ViewController.swift */,
+				4C78A16427145C1A001BE25E /* Main.storyboard */,
+				4C78A16727145C1D001BE25E /* Assets.xcassets */,
+				4C78A16927145C1D001BE25E /* LaunchScreen.storyboard */,
+				4C78A16C27145C1D001BE25E /* Info.plist */,
+			);
+			path = catchPikachuApp;
+			sourceTree = "<group>";
+		};
+		4C78A17427145C1E001BE25E /* catchPikachuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C78A17527145C1E001BE25E /* catchPikachuAppTests.swift */,
+			);
+			path = catchPikachuAppTests;
+			sourceTree = "<group>";
+		};
+		4C78A17E27145C1E001BE25E /* catchPikachuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C78A17F27145C1E001BE25E /* catchPikachuAppUITests.swift */,
+				4C78A18127145C1E001BE25E /* catchPikachuAppUITestsLaunchTests.swift */,
+			);
+			path = catchPikachuAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C78A15A27145C1A001BE25E /* catchPikachuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78A18527145C1E001BE25E /* Build configuration list for PBXNativeTarget "catchPikachuApp" */;
+			buildPhases = (
+				4C78A15727145C1A001BE25E /* Sources */,
+				4C78A15827145C1A001BE25E /* Frameworks */,
+				4C78A15927145C1A001BE25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = catchPikachuApp;
+			productName = catchPikachuApp;
+			productReference = 4C78A15B27145C1A001BE25E /* catchPikachuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C78A17027145C1E001BE25E /* catchPikachuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78A18827145C1E001BE25E /* Build configuration list for PBXNativeTarget "catchPikachuAppTests" */;
+			buildPhases = (
+				4C78A16D27145C1E001BE25E /* Sources */,
+				4C78A16E27145C1E001BE25E /* Frameworks */,
+				4C78A16F27145C1E001BE25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C78A17327145C1E001BE25E /* PBXTargetDependency */,
+			);
+			name = catchPikachuAppTests;
+			productName = catchPikachuAppTests;
+			productReference = 4C78A17127145C1E001BE25E /* catchPikachuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C78A17A27145C1E001BE25E /* catchPikachuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78A18B27145C1E001BE25E /* Build configuration list for PBXNativeTarget "catchPikachuAppUITests" */;
+			buildPhases = (
+				4C78A17727145C1E001BE25E /* Sources */,
+				4C78A17827145C1E001BE25E /* Frameworks */,
+				4C78A17927145C1E001BE25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C78A17D27145C1E001BE25E /* PBXTargetDependency */,
+			);
+			name = catchPikachuAppUITests;
+			productName = catchPikachuAppUITests;
+			productReference = 4C78A17B27145C1E001BE25E /* catchPikachuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C78A15327145C1A001BE25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4C78A15A27145C1A001BE25E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4C78A17027145C1E001BE25E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4C78A15A27145C1A001BE25E;
+					};
+					4C78A17A27145C1E001BE25E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4C78A15A27145C1A001BE25E;
+					};
+				};
+			};
+			buildConfigurationList = 4C78A15627145C1A001BE25E /* Build configuration list for PBXProject "catchPikachuApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C78A15227145C1A001BE25E;
+			productRefGroup = 4C78A15C27145C1A001BE25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C78A15A27145C1A001BE25E /* catchPikachuApp */,
+				4C78A17027145C1E001BE25E /* catchPikachuAppTests */,
+				4C78A17A27145C1E001BE25E /* catchPikachuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C78A15927145C1A001BE25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78A16B27145C1D001BE25E /* LaunchScreen.storyboard in Resources */,
+				4C78A16827145C1D001BE25E /* Assets.xcassets in Resources */,
+				4C78A16627145C1A001BE25E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78A16F27145C1E001BE25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78A17927145C1E001BE25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C78A15727145C1A001BE25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78A16327145C1A001BE25E /* ViewController.swift in Sources */,
+				4C78A15F27145C1A001BE25E /* AppDelegate.swift in Sources */,
+				4C78A16127145C1A001BE25E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78A16D27145C1E001BE25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78A17627145C1E001BE25E /* catchPikachuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78A17727145C1E001BE25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78A18227145C1E001BE25E /* catchPikachuAppUITestsLaunchTests.swift in Sources */,
+				4C78A18027145C1E001BE25E /* catchPikachuAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C78A17327145C1E001BE25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C78A15A27145C1A001BE25E /* catchPikachuApp */;
+			targetProxy = 4C78A17227145C1E001BE25E /* PBXContainerItemProxy */;
+		};
+		4C78A17D27145C1E001BE25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C78A15A27145C1A001BE25E /* catchPikachuApp */;
+			targetProxy = 4C78A17C27145C1E001BE25E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C78A16427145C1A001BE25E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C78A16527145C1A001BE25E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C78A16927145C1D001BE25E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C78A16A27145C1D001BE25E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C78A18327145C1E001BE25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C78A18427145C1E001BE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C78A18627145C1E001BE25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJHBCYFXP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = catchPikachuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beytullahozer.catchPikachuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C78A18727145C1E001BE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJHBCYFXP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = catchPikachuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beytullahozer.catchPikachuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C78A18927145C1E001BE25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJHBCYFXP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beytullahozer.catchPikachuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/catchPikachuApp.app/catchPikachuApp";
+			};
+			name = Debug;
+		};
+		4C78A18A27145C1E001BE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJHBCYFXP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beytullahozer.catchPikachuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/catchPikachuApp.app/catchPikachuApp";
+			};
+			name = Release;
+		};
+		4C78A18C27145C1E001BE25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJHBCYFXP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beytullahozer.catchPikachuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = catchPikachuApp;
+			};
+			name = Debug;
+		};
+		4C78A18D27145C1E001BE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LJHBCYFXP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beytullahozer.catchPikachuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = catchPikachuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C78A15627145C1A001BE25E /* Build configuration list for PBXProject "catchPikachuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78A18327145C1E001BE25E /* Debug */,
+				4C78A18427145C1E001BE25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C78A18527145C1E001BE25E /* Build configuration list for PBXNativeTarget "catchPikachuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78A18627145C1E001BE25E /* Debug */,
+				4C78A18727145C1E001BE25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C78A18827145C1E001BE25E /* Build configuration list for PBXNativeTarget "catchPikachuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78A18927145C1E001BE25E /* Debug */,
+				4C78A18A27145C1E001BE25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C78A18B27145C1E001BE25E /* Build configuration list for PBXNativeTarget "catchPikachuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78A18C27145C1E001BE25E /* Debug */,
+				4C78A18D27145C1E001BE25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C78A15327145C1A001BE25E /* Project object */;
+}
