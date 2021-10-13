@@ -1,15 +1,15 @@
 # catchPikatcuApp
 My first app on GitHub.
 
-
+![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 44 37](https://user-images.githubusercontent.com/88663603/137084358-044b94fd-2df3-4d19-acce-658ae874bc7a.png)
+![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 45 02](https://user-images.githubusercontent.com/88663603/137084361-13d30a05-6b26-4db6-a9f3-30d0d3b74346.png)
+![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 45 16](https://user-images.githubusercontent.com/88663603/137084362-2ce422e2-f017-45aa-a4e5-d6a4d5d7955a.png)
+![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 45 52](https://user-images.githubusercontent.com/88663603/137084432-843d4350-479c-491b-8a04-b7875cef12e9.png)
 
 import UIKit
 
 class ViewController: UIViewController {
-    ![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 44 37](https://user-images.githubusercontent.com/88663603/137084358-044b94fd-2df3-4d19-acce-658ae874bc7a.png)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 45 02](https://user-images.githubusercontent.com/88663603/137084361-13d30a05-6b26-4db6-a9f3-30d0d3b74346.png)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 45 16](https://user-images.githubusercontent.com/88663603/137084362-2ce422e2-f017-45aa-a4e5-d6a4d5d7955a.png)
-![Simulator Screen Shot - iPhone 11 Pro Max - 2021-10-12 at 15 45 52](https://user-images.githubusercontent.com/88663603/137084432-843d4350-479c-491b-8a04-b7875cef12e9.png)
+
     // Variables
     var score = 0
     var counter = 0
