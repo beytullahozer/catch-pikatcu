@@ -4,8 +4,8 @@ It is a race against time.
 When clicked, the number of scores increases and random pictures change depending on the time.
 The highest score at the end of the time is recorded as the high score. When the game is restarted, the high score is saved in the application.
 
-<img src="https://user-images.githubusercontent.com/88663603/137084358-044b94fd-2df3-4d19-acce-658ae874bc7a.png" width="300" height="600" />
-<img src="https://user-images.githubusercontent.com/88663603/137084361-13d30a05-6b26-4db6-a9f3-30d0d3b74346.png" width="300" height="600" />
+<img src="https://user-images.githubusercontent.com/88663603/137084358-044b94fd-2df3-4d19-acce-658ae874bc7a.png" width="300" height="600" / img src="https://user-images.githubusercontent.com/88663603/137084361-13d30a05-6b26-4db6-a9f3-30d0d3b74346.png" width="300" height="600" />
+<>
 <img src="https://user-images.githubusercontent.com/88663603/137084362-2ce422e2-f017-45aa-a4e5-d6a4d5d7955a.png" width="300" height="600" />
 <img src="https://user-images.githubusercontent.com/88663603/137084432-843d4350-479c-491b-8a04-b7875cef12e9.png" width="300" height="600" />
 
