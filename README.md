@@ -1,7 +1,10 @@
 # Catch Pikatcu
+## Define
 
 <br> It is a race against time.
+
 <br> When clicked, the number of scores increases and random pictures change depending on the time.
+
 <br> The highest score at the end of the time is recorded as the high score. When the game is restarted, the high score is saved in the application.
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/88663603/137084358-044b94fd-2df3-4d19-acce-658ae874bc7a.png" width="300" height="600" /> <img src="https://user-images.githubusercontent.com/88663603/137084361-13d30a05-6b26-4db6-a9f3-30d0d3b74346.png" width="300" height="600" />
