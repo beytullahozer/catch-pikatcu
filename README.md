@@ -1,9 +1,7 @@
 # Catch Pikatcu
 ## Define
 
-<br> It is a race against time.
-
-<br> When clicked, the number of scores increases and random pictures change depending on the time.
+<br> It is a race against time. When clicked, the number of scores increases and random pictures change depending on the time.
 
 <br> The highest score at the end of the time is recorded as the high score. When the game is restarted, the high score is saved in the application.
 
