@@ -1,5 +1,7 @@
-# Catch Pikatcu
-## Define
+## Definition
+<br>
+### Catch Pikatcu
+<br>
 
 <br> It is a race against time. When clicked, the number of scores increases and random pictures change depending on the time.
 
